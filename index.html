@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Quiz | História: Grandes Navegações</title>
+  </head>
+  <body>
+    <div class="alert alert-dark">
+      <div class="container">
+        <h2 class="text-light display-3 my-3">Quiz</h2>
+      </div>
+    </div>
+
+    <br />
+    <div>
+      <div class="container">
+        <h2>
+          Teste seus conhecimentos sobre a história das grandes navegações,
+          ocorridas no sêculo XV, quando os europeus souberam de um novo
+          continente antes por eles desconhecido: A América.
+        </h2>
+      </div>
+    </div>
+
+    <form>
+      <div class="my-5">
+        <p>
+          1) Qual o nome do navegador que partindo da Europa, por
+          mar, encontrou um dos caminhos para se chegar a Índia, território
+          rico, naquela época, em especiarias?
+        </p>
+        <input type="radio" name="inputQuestion1" value="a" /> a) Bartolomeu
+        Dias<br />
+        <input type="radio" name="inputQuestion1" value="b" /> b) Flamengo<br />
+        <input type="radio" name="inputQuestion1" value="c" /> c) Vasco da
+        Gama<br />
+        <input type="radio" name="inputQuestion1" value="d" /> d) Gil Eannes<br />
+        <input type="radio" name="inputQuestion1" value="e" /> e) Nenhuma das
+        alternativas anteriores<br />
+      </div>
+
+      <div class="my-5">
+        <p>
+          2) Em que ano, o italiano, Cristóvão Colombo servindo a coroa
+          espanhola chegou numa ilha do caribe a qual supunha ser a Índia, fato
+          que foi definido como o descobrimento de um novo mundo?
+        </p>
+        <input type="radio" name="inputQuestion2" value="a" /> a) 1434<br />
+        <input type="radio" name="inputQuestion2" value="b" /> b) 1492<br />
+        <input type="radio" name="inputQuestion2" value="c" /> c) 1500<br />
+        <input type="radio" name="inputQuestion2" value="d" /> d) 1789<br />
+        <input type="radio" name="inputQuestion2" value="e" /> e) Nenhuma das
+        alternativas anteriores<br />
+      </div>
+      <div class="my-5">
+        <p>
+          3) Qual o primeiro nome dado a terra encontrada por Pedro Alvares
+          Cabral, em 1500, e que foi a denominação do Brasil por três sêculos?
+        </p>
+        <input type="radio" name="inputQuestion3" value="a" /> a) Fernando de
+        Noronha
+        <br />
+        <input type="radio" name="inputQuestion3" value="b" /> b) Bahia de Todos
+        os Santos<br />
+        <input type="radio" name="inputQuestion3" value="c" /> c) Guanabara<br />
+        <input type="radio" name="inputQuestion3" value="d" /> d) Vera Cruz<br />
+        <input type="radio" name="inputQuestion3" value="e" /> e) Nenhuma das
+        alternativas anteriores<br />
+      </div>
+      <div class="my-5">
+        <p>
+          4) Nome do Cartógrafo cuja fama de seu mapa deu a denominação
+          ao continente encontrado pelos europeus ao final da idade média?
+        </p>
+        <input type="radio" name="inputQuestion4" value="a" /> a) Pedro Alvares
+        Cabral<br />
+        <input type="radio" name="inputQuestion4" value="b" /> b) Américo
+        Vespucio<br />
+        <input type="radio" name="inputQuestion4" value="c" /> c) Infante Dom
+        Henrique<br />
+        <input type="radio" name="inputQuestion4" value="d" /> d) Marquês de
+        Pombal<br />
+        <input type="radio" name="inputQuestion4" value="e" /> e) Nenhuma das
+        alternativas anteriores<br />
+      </div>
+
+      <div class="text-center">
+        <button class="btn bg-primary text-light">Enviar</button>
+      </div>
+    </form>
+
+    <div class="my-6">
+      <fieldset class="alert alert-dark">
+        <legend>Resultado</legend>
+        <label id="score" for="lname">Total de Pontos :</label>
+      </fieldset>
+    </div>
+
+    <div class="my-6">
+      <footer class="alert alert-dark">
+        <div class="container">
+          Fonte:
+          <a href="https://pt.wikipedia.org/wiki/Era_dos_Descobrimentos"
+            >Wipedia: Era dos Descobrimentos.</a
+          >
+        </div>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
